@@ -71,7 +71,7 @@ If you use the code, please cite the paper -
 }
 ```
 # Acknowledgements
-Thanks to the code available at https://github.com/TengdaHan/DPC and https://github.com/joonson/syncnet_python.  
+Thanks to the code available at https://github.com/abhinavdhall/deepfake/tree/main/ACM_MM_2020, https://github.com/TengdaHan/DPC and https://github.com/joonson/syncnet_python.  
   
 
 
