@@ -30,7 +30,7 @@ Create conda environment with package inside the package list `conda create -n m
 # Prepare data (FakeAVCeleb)
 1) Download FakeAVCeleb dataset from [here](https://github.com/DASH-Lab/FakeAVCeleb/blob/main/dataset/README.md)
 2) Run `python preprocess_FakeAVCeleb_to_DFDCformat.py`
-3) Use instructions in Prepare data (DFDC). Adjust the --out_dir in step 3 respectively. Use write_csv_fakeavceleb.py for step 5
+3) Use instructions in Prepare data (DFDC). Adjust the --out_dir in step 3 respectively. Also add --dont_crop_face option in step 3. Use write_csv_fakeavceleb.py for step 5
 
 # Training
 ```
