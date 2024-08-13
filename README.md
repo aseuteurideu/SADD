@@ -19,7 +19,7 @@ Create conda environment with package inside the package list `conda create -n m
    test/fake/{videoname}.mp4
    ```
   
-   If you wish to use the same videos as used by the paper authors, please refer to `train_fake_list.txt`,  `train_real_list.txt`,  `test_fake_list.txt`, and `test_real_list.txt`. These files contain video name followed by '.' and then the part where that video is stored (here part refers to the smaller chunks into which DFDC dataset is split). `train_list.txt` contains fake videos used for training, please extract corresponding real videos using metadata files of DFDC.  
+   If you wish to use the same videos as used by the paper authors, please refer to `train_fake_list.txt`,  `train_real_list.txt`,  `test_fake_list.txt`, and `test_real_list.txt`. 
   
 3) Once the videos have been placed at the above mentioned paths, run `python pre-process.py --out_dir train` and `python pre-process.py --out_dir test` for pre-processing the videos.  
   
